@@ -14,6 +14,8 @@ import { Graficas1Component } from '../graficas1/graficas1.component';
 import { PagesComponent } from '../pages.component';
 
 import { AppRoutingModule } from 'src/app/app-routing/app-routing.module';
+import { AccountSettingsComponent } from '../account-settings/account-settings.component';
+
 
 
 
@@ -24,12 +26,14 @@ import { AppRoutingModule } from 'src/app/app-routing/app-routing.module';
     ProgressComponent,
     Graficas1Component,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,

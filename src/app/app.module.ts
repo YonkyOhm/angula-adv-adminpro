@@ -8,6 +8,7 @@ import { PagesModule } from './pages/pages/pages.module';
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { AuthModule } from './auth/auth/auth.module';
+//import { AccountSettingsComponent } from './pages/account-settings/account-settings.component';
 
 
 
@@ -15,14 +16,13 @@ import { AuthModule } from './auth/auth/auth.module';
   declarations: [
     AppComponent,
     NopagefoundComponent,
-   
-    
+    //AccountSettingsComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
