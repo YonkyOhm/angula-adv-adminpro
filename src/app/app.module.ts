@@ -9,10 +9,14 @@ import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { AuthModule } from './auth/auth/auth.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NopagefoundComponent,
+   
+    
   ],
   imports: [
     BrowserModule,

@@ -1,33 +1,36 @@
+<div id="main-wrapper">
+  <app-header></app-header>
+  <app-sidebar></app-sidebar>
 
-  <div id="main-wrapper">
+  <div class="page-wrapper">
+    <div class="containner-fluid">
+      <!--Breadcrumbs-->
+      <app-breadcrumbs></app-breadcrumbs>
 
-    <app-header></app-header>
-    <app-sidebar></app-sidebar>
-    
-    <div class="page-wrapper">
-      <div class="container-fluid">
-          <app-breadcrumbs></app-breadcrumbs>
-          <!--Mi sistema de rutas-->
-          <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-body">
-                        This is some text within a card block.
-                        <router-outlet></router-outlet>
-
-                    </div>
-                </div>
+      <!--Misistema de rutas-->
+      <router-outlet></router-outlet>
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              
             </div>
           </div>
+        </div>
+
       </div>
 
-      <!-- footer -->
-            <!-- ============================================================== -->
-            <footer class="footer">
-              © 2022 Admin Pro by wrappixel.com
-          </footer>
-          <!-- ============================================================== -->
-          <!-- End footer -->
-          <!-- ============================================================== -->
     </div>
+
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer">
+      © 2022 Admin Pro by wrappixel.com
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+
   </div>
+
+</div>
